@@ -7,3 +7,6 @@
 [submodule "vim/pack/plugins/start/vim-easymotion"]
 	path = vim/pack/plugins/start/vim-easymotion
 	url = git@github.com:easymotion/vim-easymotion.git
+[submodule "vim/pack/plugins/start/coc.nvim"]
+	path = vim/pack/plugins/start/coc.nvim
+	url = git@github.com:neoclide/coc.nvim.git
