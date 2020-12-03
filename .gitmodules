@@ -16,3 +16,6 @@
 [submodule "vim/pack/plugins/start/vim-afterglow"]
 	path = vim/pack/plugins/start/vim-afterglow
 	url = git@github.com:danilo-augusto/vim-afterglow.git
+[submodule "vim/pack/plugins/start/vim-fugitive"]
+	path = vim/pack/plugins/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
