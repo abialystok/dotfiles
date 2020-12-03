@@ -83,10 +83,12 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 colorscheme afterglow
 
 " Nerdtree
+" ********
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen=1
 
 " coc.nvim
+" ********
 set updatetime=300
 
 " Use tab for trigger completion with characters ahead and navigate.
@@ -116,3 +118,13 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
+" ctrlp
+" *****
+let g:ctrlp_cmd='CtrlP :pwd'
+
+" fugitive
+" ********
+nnoremap <Leader><Leader>a :w<CR>:Git add <C-r>%<CR>
+nnoremap <Leader><Leader>c :Git commit -v<CR>
+nnoremap <Leader><Leader>C :Git commit -v --amend<CR>
