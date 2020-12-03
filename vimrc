@@ -85,11 +85,15 @@ colorscheme afterglow
 " Nerdtree
 " ********
 map <C-n> :NERDTreeToggle<CR>
+map <C-b> :NERDTreeFind<CR>
 let NERDTreeQuitOnOpen=1
 
 " coc.nvim
 " ********
 set updatetime=300
+
+" avoid warning about vim version being less then 8.1.1719
+let g:coc_disable_startup_warning = 1
 
 " Use tab for trigger completion with characters ahead and navigate.
 inoremap <silent><expr> <TAB>
