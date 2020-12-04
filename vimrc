@@ -132,3 +132,10 @@ let g:ctrlp_cmd='CtrlP :pwd'
 nnoremap <Leader><Leader>a :w<CR>:Git add <C-r>%<CR>
 nnoremap <Leader><Leader>c :Git commit -v<CR>
 nnoremap <Leader><Leader>C :Git commit -v --amend<CR>
+
+" cscope
+" ******
+if executable('cscope')
+	source ~/dotfiles/cscope_maps.vim
+	nnoremap <F5> :!cd ~/.cache/vim/cscope && cscope -Rbq<CR>:cs reset<CR><CR>
+endif
