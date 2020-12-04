@@ -132,7 +132,3 @@ let g:ctrlp_cmd='CtrlP :pwd'
 nnoremap <Leader><Leader>a :w<CR>:Git add <C-r>%<CR>
 nnoremap <Leader><Leader>c :Git commit -v<CR>
 nnoremap <Leader><Leader>C :Git commit -v --amend<CR>
-
-" Gutentags
-set statusline+=%{gutentags#statusline()}
-let g:gutentags_cache_dir = expand('~/.cache/vim/ctags/')
