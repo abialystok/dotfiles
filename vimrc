@@ -79,6 +79,10 @@ inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
+" tabs
+set tabstop=4
+set shiftwidth=4
+
 " colorscheme
 colorscheme afterglow
 
