@@ -82,6 +82,7 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 " tabs
 set tabstop=4
 set shiftwidth=4
+set autoindent
 
 " colorscheme
 colorscheme afterglow
